@@ -40,4 +40,4 @@ class DmozSpider(scrapy.Spider):
     def sub_parse(self, response):
         selector = Selector(response)
         tiezi = response.xpath("//div[re:test(@id,'post*')]")
-        print 1
+        print 2
