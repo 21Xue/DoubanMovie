@@ -8,4 +8,7 @@
 
 class TutorialPipeline(object):
     def process_item(self, item, spider):
+
+        for link in item['link']:
+            print link
         return item
