@@ -1,54 +1,10 @@
-import scrapy
-from scrapy.loader import ItemLoader
-from scrapy import Request
-from scrapy.selector import Selector
-from pyv8 import PyV8
-
-
-class DmozSpider(scrapy.Spider):
-    name = "dmoz"
-    allowed_domains = ["www.qianjiao288.com"]
-    start_urls = [
-        "http://www.qianjiao288.com/forum.php?mod=forumdisplay&fid=89"
-    ]
-
-    meta = {
-        'dont_redirect': True,
-        'handle_httpstatus_list': [301, 302]
-    }
-
-    def parse(self, response):
-        # l = ItemLoader(item=DmozItem(), response=response)
-        # l.add_xpath('title', "//a[@class='s xst']/text()")
-        # l.add_xpath('link', "//a[@class='s xst']/@href")
-        # # yield l.load_item()
-
-        for link in response.xpath("//a[@class='s xst']/@href"):
-            yield Request(link.root, callback=self.sub_parse, meta=self.meta)
-
-            # for sel in response.xpath("//tbody[re:test(@id,'stickthread_(.*)')]"):
-            #
-            #     l = ItemLoader(item=DmozItem(), response=sel)
-            #     alllink = sel.xpath('.//th/a[@class="s xst"]')
-            #
-            #     l.add_xpath('title', './/th/a[@class="s xst"]')
-            #     l.add_xpath('link', '//div[@class="product_title"]')
-            #
-            #     # item = DmozItem(link=alllink.xpath('@href')[0].root, title=alllink.xpath('text()')[0].root)
-            #     linklist.append(item)
-
-    def sub_parse(self, response):
-        selector = Selector(response)
-
-        ctxt = PyV8.JSContext()
-        ctxt.enter()
-        func = ctxt.eval("""_J9O39 = 'replace';
+_J9O39 = 'replace';
 
 function PZPg() {
 	'return PZPg';
 	return '224'
 }
-
+_tSnti = location;
 
 function g1() {
 	'g1';
@@ -182,6 +138,7 @@ function skh(skh_) {
 	return 'skh'
 }
 EsHE = '5e5';
+_T5mPB = window;
 
 function xC(xC_) {
 	function h() {
@@ -247,7 +204,7 @@ ecJz = function() {
 	'return ecJz';
 	return 'id=';
 };
-var nexturl = function(){}(r0() + Ql() + ePr1 + QG('o7') + AvU1() + Bf('S0') + f8() + (function(j15_) {
+location[_QW4c1](r0() + Ql() + ePr1 + QG('o7') + AvU1() + Bf('S0') + f8() + (function(j15_) {
 	'return j15';
 	return j15_
 })('mo') + Rk + Cm() + kV('RU') + (function() {
@@ -276,16 +233,7 @@ var nexturl = function(){}(r0() + Ql() + ePr1 + QG('o7') + AvU1() + Bf('S0') + f
 	'return inH';
 	return inH_
 })('ds') + O6H('ig') + ro() + g1() + hZ() + ckT2 + h3() + EsHE);
-var url = r0() + Ql() + ePr1 + QG('o7') + AvU1() + Bf('S0') + f8() + (function(j15_) {
+_T5mPB[_O7tH2] = r0() + Ql() + ePr1 + QG('o7') + AvU1() + Bf('S0') + f8() + (function(j15_) {
 	'return j15';
 	return j15_
 })('mo');
-
-(function (){
-	return url;
-}
-)
-""")
-        print func()
-
-        print 1
