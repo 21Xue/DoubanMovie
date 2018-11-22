@@ -24,7 +24,7 @@ Page({
     console.log('onLoad');
     var that = this;
     wx.setNavigationBarTitle({
-      title: wx.getStorageSync('mallName')
+      // title: wx.getStorageSync('mallName')
     });
     wx.request({
       url: 'https://api.it120.cc/' + app.globalData.subDomain + '/banner/list',
@@ -152,7 +152,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title:"李大力的健身房"
+      title:"Samuel游泳"
     }
   },
 
@@ -172,7 +172,7 @@ Page({
   },
 
   showmap:function (){
-    this.openLocationFun(34.203,108.923,15,"李大力健身房","");
+    this.openLocationFun(26.253560, 105.912080,15,"Samuel游泳","");
   },
   showvideo:function (){
     wx.navigateTo({
