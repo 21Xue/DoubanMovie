@@ -1,0 +1,1033 @@
+<!-- Facebook Pixel Code -->
+<script>
+    ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2099949253593107');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2099949253593107&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+<!-- Google 1번계정 -->
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 963421336;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/963421336/?guid=ON&script=0"/>
+</div>
+</noscript>
+
+<!-- Google 2번계정 -->
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 946601735;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/946601735/?guid=ON&script=0"/>
+</div>
+</noscript>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-63738880-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<script type="application/javascript">
+    (function(w, d, t, r, u) {
+        w[u] = w[u] || [];
+        w[u].push({
+            'projectId': '10000',
+            'properties': {
+                'pixelId': '10060289'
+            }
+        });
+        var s = d.createElement(t);
+        s.src = r;
+        s.async = true;
+        s.onload = s.onreadystatechange = function() {
+            var y, rs = this.readyState,
+                c = w[u];
+            if (rs && rs != "complete" && rs != "loaded") {
+                return
+            }
+            try {
+                y = YAHOO.ywa.I13N.fireBeacon;
+                w[u] = [];
+                w[u].push = function(p) {
+                    y([p])
+                };
+                y(c)
+            } catch (e) {}
+        };
+        var scr = d.getElementsByTagName(t)[0],
+            par = scr.parentNode;
+        par.insertBefore(s, scr)
+    })(window, document, "script", "https://s.yimg.com/wi/ytc.js", "dotq");
+</script>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- App Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/new/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/new/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/new/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/new/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/new/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/new/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/new/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/new/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/new/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/new/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/new/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/new/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/new/favicon-16x16.png">
+    <link rel="manifest" href="/assets/new/manifest.json">
+
+    <meta name="msapplication-TileColor" content="#c03546">
+    <meta name="msapplication-TileImage" content="/assets/new/ms-icon-144x144.png">
+    <meta name="theme-color" content="#c03546">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR" rel="stylesheet">
+    <title>TOPTOON</title>
+    <meta name="keywords" content="Toptoon, toptoon, 頂通, 漫畫, Toptoon漫畫, 頂通漫畫, hmate, h-mate,h mate, 線上漫畫, 少女漫畫, 成人漫畫, 免費漫畫, 電子漫畫Free, Webtoon, Comic, Comix, Manga, a漫 , 電子漫畫 ,  H漫畫 , 電子漫畫 , 線上連載漫畫 , 色漫畫, 18禁, BL, 極致18漫畫, 謎漫 ,禁漫, 不倫, 週別連載漫畫, 色情漫畫">
+    <style>
+        * {
+            font-family: "Noto Sans TC, Helvetica Neue", Helvetica, Arial, STHeiti, "Microsoft JhengHei", 微軟正黑體, sans-serif;
+            ;
+        }
+    </style>
+
+
+    <!-- for Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content=" TOPTOON " />
+    <meta property="og:title" content=" TOPTOON " />
+    <meta property="og:image" content="//lunchroom.toptoon.net/assets/new/android-icon-192x192.png" />
+    <meta property="og:image:width" content="192" />
+    <meta property="og:image:height" content="192" />
+    <meta property="og:url" content="toptoon.net" />
+    <meta property="og:description" content="極致的漫畫體驗，強檔作品每日更新! 現在登入就送免費租借券!" />
+
+    <!-- for Google -->
+    <meta name="description" content="極致的漫畫體驗，強檔作品每日更新! 現在登入就送免費租借券!" />
+    <meta name="keywords" content="條漫,漫畫,點券,免費,收費,BL漫畫,成人漫畫,愛情,奇幻,Free,Webtoon,Comic,Comix,成人漫畫,周一漫畫,周二漫畫,周三漫畫,周四漫畫,周五漫畫,周六漫畫,周日漫畫" />
+    <meta name="author" content="" />
+    <meta name="copyright" content="TOPTOON" />
+    <meta name="application-name" content="TOPTOON" />
+
+    <!-- for Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="toptoon.net" />
+    <meta name="twitter:title" content=" TOPTOON" />
+    <meta name="twitter:description" content="極致的漫畫體驗，強檔作品每日更新! 現在登入就送免費租借券!" />
+    <meta name="twitter:image" content="//lunchroom.toptoon.net/assets/new/android-icon-192x192.png" />
+    <meta name="twitter:image:width" content="192">
+    <meta name="twitter:image:height" content="192">
+
+
+    <link href="/assets/new/img/assets/favicon.png" rel="icon" type="image/png">
+    <link rel="stylesheet" type="text/css" href="/assets/new/css/style.php?theme_color=c03546&time=201809260414" />
+    <link rel="stylesheet" type="text/css" href="/assets/new/css/style_app.css" />
+    <link rel="stylesheet" type="text/css" href="//lunchroom.toptoon.net/assets/new/css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="//lunchroom.toptoon.net/assets/new/plugins/switchery/switchery.min.css" />
+    <link rel="stylesheet" type="text/css" href="//lunchroom.toptoon.net/assets/new/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/new/plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/new/css/flipclock.css">
+
+
+
+    <script src="//lunchroom.toptoon.net/assets/new/js/jquery.js"></script>
+    <script src="//lunchroom.toptoon.net/assets/new/js/jquery.cookie.js"></script>
+    <script src="//lunchroom.toptoon.net/assets/new/js/pace.min.js"></script>
+    <script src="//lunchroom.toptoon.net/assets/new/js/jquery.ui.min.js"></script>
+    <script src="//lunchroom.toptoon.net/assets/new/js/swiper.js"></script>
+    <script src="//lunchroom.toptoon.net/assets/new/js/toast.js"></script>
+    <script src="//lunchroom.toptoon.net/assets/new/js/lazyload.min.js?temp=1"></script>
+    <script src="//lunchroom.toptoon.net/assets/new/js/jquery.filterizr.js"></script>
+    <script src="//lunchroom.toptoon.net/assets/new/js/waves.js"></script>
+    <script src="//lunchroom.toptoon.net/assets/new/js/jquery.nicescroll.js"></script>
+    <script src="//lunchroom.toptoon.net/assets/new/js/modernizr.min.js"></script>
+    <script src="//lunchroom.toptoon.net/assets/new/plugins/switchery/switchery.min.js"></script>
+    <script src="//lunchroom.toptoon.net/assets/new/plugins/raty-fa/jquery.raty-fa.js"></script>
+    <script src="//lunchroom.toptoon.net/assets/new/js/jquery.fullscreen.min.js"></script>
+
+    <script src="/assets/new/js/flipclock.js"></script>
+    <script src="/assets/new/js/script.js?time=201809260414"></script>
+
+
+    <script>
+        complete_on = 0;
+    </script>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '292686247937988',
+                cookie: true,
+                xfbml: true,
+                version: 'v2.10'
+            });
+
+            FB.AppEvents.logPageView();
+
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+</head>
+
+<body style="background-color:transparent">
+    <div style="width:100%;left:0px;background-color:#12adc2;text-align:center;cursor:pointer;height:50px;z-index:100;box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);" onclick="call_page('charge');$('#' + this.id).hide();$.cookie('event_20180420', 1);" id="event_20180420">
+        <img src="//lunchroom.toptoon.net/assets/upfile/banner/f62649e94af9bcd2094bcebfb60bd19d.jpg" style="height:50px;">
+    </div>
+
+
+    <input type="hidden" id="load_page_id" value="">
+    <!-- Top Menu Area -->
+    <table style="background-color:#000;width:100%;" cellpadding="0" cellspacing="0">
+        <tr>
+            <td align="center">
+                <table style="width:1180px;height:35px;" cellpadding="0" cellspacing="0" onmouseover="$('#side_menu').hide();$('#search_box').hide();">
+                    <tr>
+                        <td style="color:#aaa;line-height:160%;text-align:left;">
+                            <img src="/assets/new/layout/t_group.png" align="absmiddle"> <span style="color:#777">會員 : 4,755,997位</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="/assets/new/layout/t_user_add.png" align="absmiddle"> <span style="color:#777">加入會員 : 2,629位</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="/assets/new/layout/t_user.png" align="absmiddle"> <span style="color:#777">登入會員 : 1,725位</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        </td>
+                        <td style="color:#aaa;line-height:160%;text-align:right;" id="topmenu_mini">
+                            <a href="#support">客服中心</a> | <a href="javascript:load_alert('logout');">登出</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <style>
+        #topmenu_mini a {
+            color: #eee;
+            font-size: 12px;
+        }
+
+        .topmenu_btn {
+            color: #111;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .action_red {
+            color: #e63740;
+        }
+
+        #all_contents_label {
+            font-size: 1.3rem;
+            color: #999;
+            display: inline-block;
+            padding: 0 0 0 1.2rem;
+            cursor: pointer;
+        }
+
+        #all_contents_label:before {
+            content: '';
+            display: inline-block;
+            background: #592076;
+            position: absolute;
+            left: 0;
+            top: 5px;
+            height: 1rem;
+            width: 1rem;
+            margin-right: 2rem;
+            border-radius: 80%;
+            box-shadow: 0px 1px 0 0 rgba(0, 0, 0, .2);
+            box-sizing: border-box;
+            border: 0.5rem solid #fff;
+            transition: border .3s ease;
+        }
+
+        #all_contents_input:checked+#all_contents_label:before {
+            border-color: #fff;
+            border-width: 3px;
+        }
+
+        #all_contents_input+#all_contents_label {
+            transition: color .7s ease;
+        }
+
+        #all_contents_input:checked+#all_contents_label {
+            color: #111;
+        }
+
+        .wrap {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%) scale(1, 1);
+        }
+    </style>
+
+    <!-- Logo Area -->
+    <div style="position:relative;width:100%;z-index:10;box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);">
+        <table style="background-color:#fff;width:100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center">
+                    <table style="width:1200px;height:70px;" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td style="color:#aaa;line-height:160%;text-align:left;">
+                                <img src="/assets/new/logo/logo.png" style="margin:23px 5px;cursor:pointer;" onclick="location='/';">
+                                <img src="/assets/new/layout/mobile/switch_18on.png" style="margin:18px 15px ;cursor:pointer;width:50px;" onclick="adult_page();" id="adult_btn">
+                            </td>
+                            <td style="line-height:160%;text-align:left;width:480px;" id="topmenu" onmouseover="$('#side_menu').hide();$('#search_box').hide();">
+                                <a href="javascript:call_page('weekly');" id="weekly_btn" class="topmenu_btn">連載</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="javascript:call_page('complete');" id="complete_btn" class="topmenu_btn">完結</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="javascript:call_page('top100');" id="top100_btn" class="topmenu_btn">排名</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="javascript:call_page('publish');" id="publish_btn" class="topmenu_btn">出版漫畫</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="javascript:call_page('event');" id="event_btn" class="topmenu_btn">優惠活動</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="javascript:call_page('freesale');" id="freesale_btn" class="topmenu_btn">免費</a>
+                            </td>
+
+                            <td style="line-height:160%;text-align:center;width:80px;font-weight:bold;color:#e74c3c;" align="center">
+                                <div style="float:right;color:#000;font-size:12px;text-align:center;margin-right:15px;" id="charge_top_hide_btn2" onclick="$('#language_select_board').show();">
+                                    <img src="//lunchroom.toptoon.net/assets/new/layout/language_icon_mo.png" style="height:1.2rem;vertical-align: sub;"> 繁體
+                                    <div style="position:absolute;background-color:#fff;border:1px solid #999;line-height:30px;border-radius:5px;display:none;box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);"
+                                        id="language_select_board">
+                                        <table>
+                                            <tr style="height:30px;">
+                                                <td style="background-color:#eee;"><span style="color:#111;font-size:14px;font-weight:600;margin:5px;cursor:pointer;" onclick="language_change('tw');">&nbsp;&nbsp;&nbsp;&nbsp;繁體&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+                                            </tr>
+                                            <tr style="height:30px;">
+                                                <td style=""><span style="color:#111;font-size:14px;font-weight:600;margin:5px;cursor:pointer;" onclick="language_change('en');">&nbsp;&nbsp;&nbsp;&nbsp;English&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+                                            </tr>
+                                            <tr style="height:30px;">
+                                                <td style=""><span style="color:#111;font-size:14px;font-weight:600;margin:5px;cursor:pointer;" onclick="language_change('cn');">&nbsp;&nbsp;&nbsp;&nbsp;简体&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+                                            </tr>
+                                            <tr style="height:30px;">
+                                                <td style=""><span style="color:#111;font-size:14px;font-weight:600;margin:5px;cursor:pointer;" onclick="language_change('jp');">&nbsp;&nbsp;&nbsp;&nbsp;日本語&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </td>
+
+
+                            <td style="line-height:160%;text-align:center;width:60px;font-weight:bold;color:#e74c3c;">
+
+                                <a href="javascript:call_page('recent');" style="font-size:12px;width:100%;" id="library_btn" class="topmenu_btn"><img src="//lunchroom.toptoon.net/assets/new/layout/new18_ico_library.png" style="vertical-align: sub;"> 紀錄</a>
+
+                            </td>
+                            <td style="line-height:160%;text-align:center;width:80px;font-weight:bold;color:#e74c3c;">
+                                <div style="position:relative;;">
+                                    <a href="javascript:call_page('giftbox');" style="font-size:12px;width:100%;" id="giftbox_btn" class="topmenu_btn"><img src="//lunchroom.toptoon.net/assets/new/layout/renewal17_ico_gift.png" style="vertical-align: sub;"> 禮物</a>
+                                    <span style="background: #ff3838;text-align: center;border-radius: 10px;margin-left: 3px;color: #fff;font-weight: bold;padding: 0px 5px;display: inline-grid;vertical-align: middle;margin-top: -3px;line-height: 16px;font-size:10px;" id="gift_count">4</span>
+                                </div>
+                            </td>
+                            <td style="line-height:160%;text-align:center;width:60px;font-weight:bold;color:#e74c3c;">
+                                <a href="javascript:call_page('charge');" style="font-size:12px;width:100%;" class="topmenu_btn"><img src="//lunchroom.toptoon.net/assets/new/layout/new18_ico_charge.png" style="vertical-align: sub;">   儲值</a>
+                            </td>
+                            <td style="line-height:160%;text-align:center;width:15px;">
+                                &nbsp;
+                            </td>
+                            <td style="background-color:#E74C3C;line-height:160%;text-align:center;width:70px;cursor:pointer;">
+                                <div style="width:70px;height:70px;position:relative;" valign="middle" onclick="$('#search_box').show();$('#search_input').focus();">
+                                    <img src="//lunchroom.toptoon.net/assets/new/layout/btn_search.png" style="width:30px;margin:21px;">
+                                    <div valign="middle" id="search_box" style="background-color:#E74C3C;width:360px;display:none;right:0px;top:0px;height:70px;position:absolute;">
+                                        <input type="text" id="search_input" style="background-color:#fff;margin:15px;border:0px;height:40px;line-height:40px;border-radius:10px;-webkit-tap-highlight-color:rgba(0,0,0,0);outline: none;padding:0px 10px;width:260px;" onkeyup="comic_search($('#' + this.id).val());">
+                                        <img src="/assets/new/layout/btn_search.png" style="width:30px;margin:21px 19px 21px 0px;;float:right;">
+                                        <span id="search_page"></span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="background-color:#1A2530;line-height:160%;text-align:center;width:70px;cursor:pointer;" onclick="side_menu();">
+                                <div style="width:70px;height:70px;position:relative;" valign="middle">
+                                    <img src="/assets/new/layout/btn_list.png" style="width:28px;margin:21px;">
+                                    <span id="side_menu">
+			<span id="side_menu_data">
+			
+<style>
+	#side_menu {
+		box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+		border-radius:10px;
+		background-color:#fff;
+		width:300px;
+		top:60px;
+		right:0px;
+		position:absolute;
+		overflow:hidden;
+		display:none;
+		z-index:15;
+	}
+	#side_menu td {
+		color:#333;
+		border-top:1px solid #ccc;
+		text-align:left;
+		padding-left:20px;
+		height:40px;
+		font-size:14px;
+	}
+	#side_menu th {
+		color:#fff;
+		background-color:#1A2530;
+		text-align:center;
+		height:40px;
+		font-size:14px;
+	}
+	.side_menu_td:hover {
+		background-color:#f5f5f5;
+		color:#df2220;
+	}
+</style>
+
+<div valign="middle">
+	<div style="width:300px;height:50px;background-color:#1A2530;color:#fff;font-size:15px;line-height:46px;">
+		<span style="float:left;margin-left:15px;font-size:15px;"><img src='//lunchroom.toptoon.net/assets/new/logo/s_google.png' align='absmiddle' style='height:16px;margin-right:5px;'>helloworldfsn031@gmail.com</span>
+                                    <span style="float:right;color:#1A2530;border-radius:20px;height:30px;padding:3px 8px;background-color:#fff;margin:10px 15px 0px 0px;line-height:26px;font-weight:600;" onclick="load_alert('logout');">登出</span>
+                                </div>
+
+                                <div style="width:300px;height:50px;background-color:#34495E;color:#fff;font-size:15px;line-height:46px;">
+                                    <span style="float:left;margin-left:15px;font-size:15px;">
+				ⓒ 0 點券 &nbsp;
+		ⓑ 0 贈送 &nbsp;</span>
+                                    <span style="float:right;color:#fff;border-radius:20px;height:27px;padding:3px 8px;background-color:#4c5e70;margin:12px 15px 0px 0px;line-height:20px;font-weight:600;">D-DAY : 0</span>
+
+
+                                </div>
+
+                                <table style="width:300px;border:0px;" cellpadding="0" cellspacing="0">
+                                    <tr height="45">
+                                        <td colspan="2" class="side_menu_td" onclick="call_page('mypage');"><img src="/assets/new/mini_icons/mypage.png" align="abmiddle" style="height:16px;margin-right:10px;">基本資料</td>
+                                    </tr>
+                                    <tr height="45">
+                                        <td colspan="2" class="side_menu_td" onclick="call_page('giftbox');"><img src="/assets/new/mini_icons/giftbox.png" align="abmiddle" style="height:16px;margin-right:10px;">禮物</td>
+                                    </tr>
+                                    <tr height="45">
+                                        <td colspan="2" class="side_menu_td" onclick="call_page('library');"><img src="/assets/new/mini_icons/library.png" align="abmiddle" style="height:16px;margin-right:10px;">書櫃</td>
+                                    </tr>
+                                    <tr height="45">
+                                        <td colspan="2" class="side_menu_td" onclick="call_page('favorites');"><img src="/assets/new/mini_icons/favorites.png" align="abmiddle" style="height:16px;margin-right:10px;">有興趣的作品</td>
+                                    </tr>
+                                    <tr height="45">
+                                        <td colspan="2" class="side_menu_td" onclick="call_page('recent');"><img src="/assets/new/mini_icons/recent.png" align="abmiddle" style="height:16px;margin-right:10px;">最近觀看紀錄</td>
+                                    </tr>
+                                    <tr height="45">
+                                        <td colspan="2" class="side_menu_td" onclick="call_page('useredit');"><img src="/assets/new/mini_icons/useredit.png" align="abmiddle" style="height:16px;margin-right:10px;">修改個人資料</td>
+                                    </tr>
+                                    <tr height="45">
+                                        <td colspan="2" class="side_menu_td" onclick="call_page('support');"><img src="/assets/new/mini_icons/support.png" align="abmiddle" style="height:16px;margin-right:10px;">客服中心</td>
+                                    </tr>
+                                </table>
+    </div>
+    </span>
+    </span>
+    </div>
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+    </div>
+    <span id="page" onmouseover="" onclick="$('#side_menu').hide();"><div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div></span>
+    <div style="position:relative;width:100%;height:300px;display:none;" id="more_loading_div" align="center"><img src="/assets/new/layout/loader.gif" style="margin-top:100px;"><br>頁面載入中</div>
+    <span id="viewer"></span>
+    <span id="alert"></span>
+    <script>
+        // SEARCH BOX
+        function comic_search(value) {
+            $('#search_page').load("/tool/comic_search?keyword=" + encodeURIComponent(value));
+        }
+
+        // POPUP LOAD
+        function load_alert(id, data, redirect) {
+            $('#side_menu').hide();
+            if (redirect == '' || redirect == undefined) {
+                var page = location.href.split("#");
+                var redirect = "#" + page[1];
+            }
+            $('#alert').load("/alert/" + id + "?data=" + encodeURIComponent(data) + "&redirect=" + encodeURIComponent(redirect), function() {
+                $('#alert').show();
+            });
+        }
+
+        // POPUP LOAD
+        function custom_alert(title, msg, redirect) {
+
+
+            $('#alert').load("/alert/custom?msg=" + encodeURIComponent(msg) + "&title=" + encodeURIComponent(title) + "&redirect=" + encodeURIComponent(redirect), function() {
+                $('#alert').show();
+            });
+
+
+        }
+
+        // SIDE MENU
+        function side_menu() {
+            var temptime = new Date();
+            var temp = temptime.getTime();
+            $('#side_menu').show();
+            $('#side_menu_data').load("/tool/side_menu?temp=" + temp);
+        }
+
+
+        // ADULT PAGE LOAD 
+        function adult_page() {
+            if ($.cookie('adult_check') == 1) {
+
+                $('#adult_btn').attr('src', '/assets/new/layout/mobile/switch_18off.png');
+                $.cookie('adult_check', '', {
+                    expires: 365,
+                    path: '/'
+                });
+
+                var page = location.href.split("#");
+                if (typeof page[1] != 'undefined' && page[1] != '') {
+
+                    var parameta = page[1].split("_");
+                    if (page.indexOf(',') > 0) {
+                        var data_key = parameta.splice(1, 10).join('_');
+                        var parameta2 = data_key.split(",");
+                        load_viewer(parameta2[0], parameta2[1]);
+                    } else if (page.indexOf('contents') > 0) {
+                        $('#page').load("/comic/contents_list?comic_id=" + parameta[1]);
+                    } else {
+                        if (parameta[0] == 'weekly' || parameta[0] == 'complete' || parameta[0] == 'top100' || parameta[0] == 'publish' || parameta[0] == 'bl' || parameta[0] == 'realtime') {
+                            $('#page').load("/page/" + parameta[0] + "?data=" + parameta[1] + "&tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "");
+                        } else {
+                            $('#page').load("/page/" + page[1] + "?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "");
+                        }
+                    }
+
+                } else {
+                    $('#page').load("/page/mainpage?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc");
+                }
+
+            } else {
+
+                var page = location.href.split("#");
+                load_alert('adult', page[1]);
+            }
+        }
+
+
+        var first_page = 0;
+
+
+        // PAGE LOAD
+        function load_page(id) {
+
+
+            $('#search_box').hide();
+            $('#side_menu').hide();
+            $('#viewer_frame').hide();
+
+            var page = location.href.split("#");
+
+            if (typeof id != 'undefined') {
+
+                $('#alert').hide();
+                $('#viewer_frame').hide();
+                $('body').css('overflow', 'auto');
+                $('html').css('overflow', 'auto');
+                gotop();
+
+                if (id.indexOf('contents') > 0) {
+                    console.log('t1s');
+                    var parameta = id.split("_");
+                    var data_key = parameta.splice(1, 10).join('_');
+                    if (id.indexOf(',') > 0) {
+                        console.log('t6s');
+                        var parameta2 = data_key.split(",");
+                        load_viewer(parameta2[0], parameta2[1]);
+                    } else {
+                        console.log('t4s');
+                        $('#page').load("/comic/contents_list?comic_id=" + parameta[1]);
+                    }
+                } else {
+                    var parameta = id.split("_");
+                    if (parameta[0] == 'contents') {
+                        $('#page').load("/comic/contents_list?comic_id=" + parameta[1] + "&tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "");
+                    } else if (parameta[0] == 'weekly' || parameta[0] == 'complete' || parameta[0] == 'top100' || parameta[0] == 'publish' || parameta[0] == 'bl' || parameta[0] == 'realtime' || parameta[0] == 'charge') {
+                        console.log('t2s');
+                        $('#page').load("/page/" + parameta[0] + "?data=" + parameta[1] + "&tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "");
+                    } else {
+                        console.log('t3s');
+                        $('#page').load("/page/" + page[1] + "?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "");
+                    }
+                }
+
+
+            } else {
+                try {
+
+                    $('.topmenu_btn').removeClass('action_red');
+
+                    var parameta = page[1].split("_");
+                    var data_key = parameta.splice(1, 10).join('_');
+
+                    if (parameta[0] == 'view') {
+
+                        $('#page').load("/comic/contents_list?comic_id=" + data_key);
+
+                    } else {
+
+
+                        $('#' + parameta[0] + '_btn').addClass('action_red');
+                        if (parameta[0] == 'weekly') {
+
+                            if ($("#weekly_data").length > 0) {
+                                reset_menu('menu_weekly_' + data_key);
+                                $('#weekly_data').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#weekly_data').load("/page/weekly?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "&data=" + data_key + " #weekly_data", function() {
+                                    $('.lazy').lazyload();
+                                });
+                            } else {
+                                $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#page').load("/page/weekly?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "&data=" + data_key);
+                            }
+
+                        } else if (parameta[0] == 'complete') {
+
+                            if ($("#complete_data").length > 0) {
+                                reset_menu('menu_complete_' + data_key);
+                                $('#complete_data').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#complete_data').load("/page/complete?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "&data=" + data_key + " #complete_data", function() {
+                                    $('.lazy').lazyload();
+                                });
+                            } else {
+                                $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#page').load("/page/complete?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "&data=" + data_key);
+                            }
+
+
+                        } else if (parameta[0] == 'top100') {
+
+                            if ($("#top100_data").length > 0) {
+                                reset_menu('menu_top100_' + data_key);
+                                $('#top100_data').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#top100_data').load("/page/top100?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "&data=" + data_key + " #top100_data", function() {
+                                    $('.lazy').lazyload();
+                                });
+                            } else {
+                                $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#page').load("/page/top100?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "&data=" + data_key);
+                            }
+
+                        } else if (parameta[0] == 'publish') {
+
+                            if ($("#publish_data").length > 0) {
+                                reset_menu('menu_publish_' + data_key);
+                                $('#publish_data').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#publish_data').load("/page/publish?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "&data=" + data_key + " #publish_data", function() {
+                                    $('.lazy').lazyload();
+                                });
+                            } else {
+                                $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#page').load("/page/publish?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "&data=" + data_key);
+                            }
+
+                        } else if (parameta[0] == 'freesale') {
+
+                            $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                            $('#page').load("/page/freesale?data=" + data_key);
+
+
+                        } else if (parameta[0] == 'bl') {
+
+                            if ($("#bl_data").length > 0) {
+                                reset_menu('menu_bl_' + data_key);
+                                $('#bl_data').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#bl_data').load("/page/bl?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "&data=" + data_key + " #bl_data", function() {
+                                    $('.lazy').lazyload();
+                                });
+                            } else {
+                                $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#page').load("/page/bl?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc" + "&data=" + data_key);
+                            }
+
+
+                        } else if (parameta[0] == 'charge') {
+
+                            $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                            $('#page').load("/page/charge?data=" + data_key);
+
+                        } else if (parameta[0] == 'event') {
+
+                            $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                            $('#page').load("/page/event?data=" + data_key);
+
+                        } else if (parameta[0] == 'favorites') {
+
+                            if ($("#mypage_data").length > 0) {
+                                reset_menu('menu_' + parameta[0], parameta[0]);
+                                $('#mypage_data').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#mypage_data').load("/page/favorites?data=" + data_key + " #mypage_data", function() {
+                                    $('.lazy').lazyload();
+                                });
+                            } else {
+                                $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#page').load("/page/favorites?data=" + data_key);
+                            }
+
+                        } else if (parameta[0] == 'library') {
+
+                            if ($("#mypage_data").length > 0) {
+                                reset_menu('menu_' + parameta[0], parameta[0]);
+                                $('#mypage_data').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#mypage_data').load("/page/library?data=" + data_key + " #mypage_data", function() {
+                                    $('.lazy').lazyload();
+                                });
+                            } else {
+                                $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#page').load("/page/library?data=" + data_key);
+                            }
+
+                        } else if (parameta[0] == 'recent') {
+
+                            if ($("#mypage_data").length > 0) {
+                                reset_menu('menu_' + parameta[0], parameta[0]);
+                                $('#mypage_data').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#mypage_data').load("/page/recent?data=" + data_key + " #mypage_data", function() {
+                                    $('.lazy').lazyload();
+                                });
+                            } else {
+                                $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#page').load("/page/recent?data=" + data_key);
+                            }
+
+                        } else if (parameta[0] == 'mypage') {
+
+                            if ($("#mypage_data").length > 0) {
+                                reset_menu('menu_' + parameta[0], parameta[0]);
+                                $('#mypage_data').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#mypage_data').load("/page/mypage?data=" + data_key + " #mypage_data", function() {
+                                    $('.lazy').lazyload();
+                                });
+                            } else {
+                                $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#page').load("/page/mypage?data=" + data_key);
+                            }
+
+                        } else if (parameta[0] == 'theme') {
+
+                            $.cookie('view_mode_page', 'theme');
+                            $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                            $('#page').load("/page/theme?data=" + data_key);
+
+                        } else if (parameta[0] == 'giftbox') {
+
+                            if ($("#mypage_data").length > 0) {
+                                reset_menu('menu_' + parameta[0], parameta[0]);
+                                $('#mypage_data').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#mypage_data').load("/page/giftbox?data=" + data_key + " #mypage_data", function() {
+                                    $('.lazy').lazyload();
+                                });
+                            } else {
+                                $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#page').load("/page/giftbox?data=" + data_key);
+                            }
+
+                        } else if (parameta[0] == 'useredit') {
+
+                            if ($("#mypage_data").length > 0) {
+                                reset_menu('menu_' + parameta[0], parameta[0]);
+                                $('#mypage_data').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#mypage_data').load("/page/useredit?data=" + data_key + " #mypage_data", function() {
+                                    $('.lazy').lazyload();
+                                    $('[data-plugin="switchery"]').each(function(idx, obj) {
+                                        new Switchery($(this)[0], $(this).data());
+                                    });
+                                });
+                            } else {
+                                $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#page').load("/page/useredit?data=" + data_key, function() {
+                                    $('.lazy').lazyload();
+                                    $('[data-plugin="switchery"]').each(function(idx, obj) {
+                                        new Switchery($(this)[0], $(this).data());
+                                    });
+                                });
+                            }
+
+                        } else if (parameta[0] == 'support') {
+
+                            if ($("#mypage_data").length > 0) {
+                                reset_menu('menu_' + parameta[0], parameta[0]);
+                                $('#mypage_data').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#mypage_data').load("/page/support?data=" + data_key + " #mypage_data", function() {
+                                    $('.lazy').lazyload();
+                                });
+                            } else {
+                                $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                                $('#page').load("/page/support?data=" + data_key);
+                            }
+
+                        } else if (parameta[0] == 'policy1') {
+
+                            $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                            $('#page').load("/page/policy1?data=" + data_key);
+
+                        } else if (parameta[0] == 'policy2') {
+
+                            $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                            $('#page').load("/page/policy2?data=" + data_key);
+
+
+                        } else if (parameta[0] == 'poll') {
+
+                            $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                            $('#page').load("/page/poll?data=" + data_key);
+
+                        } else if (parameta[0] == 'realtime') {
+
+                            $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                            $('#page').load("/page/realtime?data=" + data_key);
+
+                        } else if (parameta[0] == 'adult') {
+
+                            $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                            $('#page').load("/page/adult?redirect=" + data_key);
+
+                        } else if (parameta[0] == 'contents') {
+
+                            $('#page').html("<div style='position:relative;width:100%;height:1000px;' align='center'><img src='/assets/new/layout/loader.gif' style='margin-top:200px;'><br>頁面載入中</div>");
+                            var parameta2 = data_key.split(",");
+                            if (parameta2.length > 1) {
+                                $('#page').load("/comic/contents_list?comic_id=" + parameta2[0]);
+                                if (parameta2[0] != '') {
+                                    load_viewer(parameta2[0], parameta2[1]);
+                                }
+                            } else {
+                                $('#page').load("/comic/contents_list?comic_id=" + parameta2[0]);
+                            }
+                            //history.pushState({ data: 'pushpush' }, 'TOPTOON', "/comic/contents_list?comic_id=" + parameta2[0]);
+
+                        } else if (parameta[0] != '') {
+                            location = "/";
+                        } else {
+                            $('#page').load("/page/mainpage?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc");
+                        }
+
+                    }
+
+                } catch (e) {
+                    $('#page').load("/page/mainpage?tmp=" + $.cookie('adult_check') + "_" + $.cookie('language') + "_pc");
+                }
+            }
+
+        }
+
+
+
+        $(window).bind('hashchange', function() {
+
+            $('body').css("overflow", "auto");
+            $('html').css("overflow", "auto");
+
+            var temp = location.href.split("#");
+            if (('#' + temp[1]) != $('#load_page_id').val()) {
+                load_page();
+            }
+
+        });
+
+        load_page();
+    </script>
+
+    <span id="episode_check"></span>
+    <table style="width:100%;" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td align="center" valign="top">
+                <table style="width:1190px;" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td>
+                            <img src="//lunchroom.toptoon.net/assets/upfile/banner/fd4eb0f91a2b44e22b8e62acb6c94023.jpg" style="cursor:pointer;margin:0px auto;" onclick="window.open('https://play.google.com/store/apps/details?id=global.toptoon.net.toptoon', '_blank');" align="center">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <table style="background-color:#262626;width:100%;height:300px;" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td align="center" valign="top">
+                <table style="width:1180px;height:250px;" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td valign="top" align="right" style="width:250px;">
+                            <img src="/assets/new/logo/footer_logo.png" style="margin:30px 50px;width:120px;">
+                        </td>
+                        <td style="color:#aaa;line-height:160%;">
+                            <a href="#policy1" style="font-size:14px;font-weight:600;color:#fff;" onclick="gotop();">使用條款</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                            <a href="#policy2" style="font-size:14px;font-weight:600;color:#fff;" onclick="gotop();">個人資料保護方針</a>
+
+                            <span style="float:right;margin-right:20px;"><span style="color:#eee;cursor:pointer;" onclick="$.cookie('language', 'tw');location='/';">繁體</span> | <span style="color:#eee;cursor:pointer;" onclick="$.cookie('language', 'en');location='/';">English</span>                            | <span style="color:#eee;cursor:pointer;" onclick="$.cookie('language', 'jp');location='/';">日本語</span> | <span style="color:#eee;cursor:pointer;" onclick="$.cookie('language', 'cn');location='/';">简体</span>
+                            <br>
+                            <br> 頂通網站的電子著作，皆受到著作權法保護，若未受到TopCo Co,Ltd.的承認許可，用戶不得擅自複製、引用<br> 如發現違法事項請向客服中心通報
+                            <br> TopCo Co,Ltd.<br>
+                            <br>
+                            <br> 客服中心 : helpdesk@toptoon.net / 02-2716-0982<br> 服務時間 : 週一至週五 09:30~12:30、13:30~18:30<br>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <img id="counter_img" src="//ad.toptoon.com/log/counter_tw.php?key=NDY4MTcxNi9VU0VSX0dFTkRFUi8xMzMvVVNFUl9HUkFERS9QX0lE&url=aHR0cHM6Ly93d3cudG9wdG9vbi5uZXQv&ref=aHR0cHM6Ly93d3cudG9wdG9vbi5uZXQv&temp=1537949649" width='1' height='1' onerror="document.getElementById(this.id).style.display='none';"
+        onload="document.getElementById(this.id).style.display='none';">
+
+
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+
+    <script>
+        if ("Notification" in window) {
+
+
+            var config = {
+                apiKey: "AIzaSyCXXEtFD4QGICczRbPSA0fuuePoKRualB8",
+                authDomain: "toptoonglobal-196608.firebaseapp.com",
+                databaseURL: "https://toptoonglobal-196608.firebaseio.com",
+                projectId: "toptoonglobal-196608",
+                storageBucket: "",
+                messagingSenderId: "882317210576"
+            };
+
+
+            firebase.initializeApp(config);
+
+            // [START get_messaging_object]
+            // Retrieve Firebase Messaging object.
+            const messaging = firebase.messaging();
+
+            messaging.onTokenRefresh(function() {
+                messaging.getToken().then(function(refreshedToken) {
+                        setTokenSentToServer(false);
+                        sendTokenToServer(refreshedToken);
+                        resetUI();
+                    })
+                    .catch(function(err) {
+                        console.log('Unable to retrieve refreshed token ', err);
+                    });
+            });
+
+            var toastCount = 0;
+            var $toastlast;
+
+            messaging.onMessage(function(payload) {
+                //appendMessage(payload);
+            });
+
+            var PageLoading = 0;
+
+            function key_reg(key) {
+                console.log(key);
+                if (PageLoading == 0) {
+                    PageLoading = 1;
+                    $.getJSON("/tool/push_reg?pkey=" + key, function(data) {});
+                }
+            }
+
+            function resetUI() {
+                messaging.getToken().then(function(currentToken) {
+                    if (currentToken) {
+                        sendTokenToServer(currentToken);
+                        key_reg(currentToken);
+                    } else {
+                        setTokenSentToServer(false);
+                    }
+                }).catch(function(err) {
+                    console.log('error', err);
+                    setTokenSentToServer(false);
+                });
+            }
+
+            function sendTokenToServer(currentToken) {
+                if (!isTokenSentToServer()) {
+                    setTokenSentToServer(true);
+                }
+            }
+
+            function isTokenSentToServer() {
+                return window.localStorage.getItem('sentToServer') == 1;
+            }
+
+            function setTokenSentToServer(sent) {
+                window.localStorage.setItem('sentToServer', sent ? 1 : 0);
+            }
+
+            function requestPermission() {
+                messaging.requestPermission().then(function() {
+                    resetUI();
+                }).catch(function(err) {});
+            }
+
+            requestPermission();
+            resetUI();
+        }
+    </script>
+</body>
+
+</html>
