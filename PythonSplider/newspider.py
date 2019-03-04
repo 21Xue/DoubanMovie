@@ -3,6 +3,7 @@ import urllib
 import time
 import json
 import news
+import codecs
 
 
 class xinhua_Spider:
@@ -51,35 +52,21 @@ class xinhua_Spider:
         shortNewspage = urllib.request.urlopen(shortNewsUrl).read().decode("UTF-8")
         results = json.loads(shortNewspage[1:-1])['data']['list']
 
+        filename = time.strftime("%Y-%m-%d", time.localtime())
+        f = codecs.open(filename + '.txt', 'w+', encoding='utf-8')
         newsList = []
         for result in results:
-            temp = news.News(result['Title'], result['LinkUrl'], result['Abstract'])
-            newsList.append(temp)
-        filename = time.strftime("%Y-%m-%d", time.localtime())
-        f = open(filename + '.txt', 'w+')
-        f.writelines(json.dump(newsList))
+            temp = news.News(str(result['Title']), result['LinkUrl'],
+                             str(result['Abstract']))
+            newsList.append(temp.__dict__)
+
+        data = json.dumps(newsList, ensure_ascii=False)
+        f.write(data)
+        f.write("\n")
         f.close()
         input();
 
         # 获取页面源码并将其存储到数组中
-
-    def get_data(self, url, endPage):
-        url = url + '&pn='
-        for i in range(1, endPage + 1):
-            print(u'爬虫报告：爬虫%d号正在加载中...' % i)
-            myPage = urllib.request.urlopen(url + str(i)).read()
-            # 将myPage中的html代码处理并存储到datas里面
-            self.deal_data(myPage.decode('gbk'))
-
-            # 将内容从页面代码中抠出来
-
-    def deal_data(self, myPage):
-        myItems = re.findall('id="post_content.*?>(.*?)</div>', myPage, re.S)
-        for item in myItems:
-            data = self.myTool.Replace_Char(item.replace("\n", "").encode('gbk'))
-            self.datas.append(data + '\n')
-
-            # -------- 程序入口处 ------------------
 
 
 newsUrl = 'http://www.xinhuanet.com/politics/'
